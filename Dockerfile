@@ -13,3 +13,5 @@ COPY --from=base /install /usr/local
 
 COPY . /srv/app
 WORKDIR /srv/app
+
+CMD ["python", "run.py"]
