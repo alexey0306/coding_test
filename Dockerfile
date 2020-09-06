@@ -13,5 +13,6 @@ COPY --from=base /install /usr/local
 
 COPY . /srv/app
 WORKDIR /srv/app
+ENV PYTHONPATH "${PYTHONPATH}:/srv/app"
 
 CMD ["python", "run.py"]
