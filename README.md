@@ -14,6 +14,6 @@ API Token should be stored in the Environment variable **API_TOKEN**
 
 So, the script can be run like the following: 
 ```
-export API_TOKEN
+export API_TOKEN=<YOUR_API_TOKEN>
 python run.py --address <MAC_ADDRESS> --output json
 ```
